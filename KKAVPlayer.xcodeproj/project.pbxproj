@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1C82E82216A7E40031A558 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C82E72216A7E40031A558 /* AppDelegate.m */; };
+		0E1C82EB2216A7E40031A558 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C82EA2216A7E40031A558 /* ViewController.m */; };
+		0E1C82EE2216A7E40031A558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C82EC2216A7E40031A558 /* Main.storyboard */; };
+		0E1C82F02216A7E50031A558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C82EF2216A7E50031A558 /* Assets.xcassets */; };
+		0E1C82F32216A7E50031A558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C82F12216A7E50031A558 /* LaunchScreen.storyboard */; };
+		0E1C82F62216A7E50031A558 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C82F52216A7E50031A558 /* main.m */; };
+		0E1C83002216A7E50031A558 /* KKAVPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C82FF2216A7E50031A558 /* KKAVPlayerTests.m */; };
+		0E1C830B2216A7E50031A558 /* KKAVPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C830A2216A7E50031A558 /* KKAVPlayerUITests.m */; };
+		0E1C83192216A82F0031A558 /* i-see-fire.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C83182216A82F0031A558 /* i-see-fire.mp4 */; };
+		0E1C831D2216A8590031A558 /* KKAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C831B2216A8590031A558 /* KKAVPlayer.m */; };
+		0E1C83202216A87E0031A558 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1C831F2216A87E0031A558 /* MediaPlayer.framework */; };
+		0E1C83222216A8A40031A558 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1C83212216A8A40031A558 /* AVFoundation.framework */; };
+		0E1C83242216A8C30031A558 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1C83232216A8C30031A558 /* UIKit.framework */; };
+		0E1C83282216AA3E0031A558 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C83262216AA3E0031A558 /* PlayerViewController.m */; };
+		0E1C83292216AA3E0031A558 /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C83272216AA3E0031A558 /* PlayerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E1C82FC2216A7E50031A558 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E1C82DB2216A7E40031A558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E1C82E22216A7E40031A558;
+			remoteInfo = KKAVPlayer;
+		};
+		0E1C83072216A7E50031A558 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E1C82DB2216A7E40031A558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E1C82E22216A7E40031A558;
+			remoteInfo = KKAVPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E1C82E32216A7E40031A558 /* KKAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1C82E62216A7E40031A558 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E1C82E72216A7E40031A558 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E1C82E92216A7E40031A558 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E1C82EA2216A7E40031A558 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E1C82ED2216A7E40031A558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E1C82EF2216A7E50031A558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E1C82F22216A7E50031A558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E1C82F42216A7E50031A558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1C82F52216A7E50031A558 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E1C82FB2216A7E50031A558 /* KKAVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKAVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1C82FF2216A7E50031A558 /* KKAVPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKAVPlayerTests.m; sourceTree = "<group>"; };
+		0E1C83012216A7E50031A558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1C83062216A7E50031A558 /* KKAVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKAVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1C830A2216A7E50031A558 /* KKAVPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKAVPlayerUITests.m; sourceTree = "<group>"; };
+		0E1C830C2216A7E50031A558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1C83182216A82F0031A558 /* i-see-fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-see-fire.mp4"; sourceTree = "<group>"; };
+		0E1C831B2216A8590031A558 /* KKAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAVPlayer.m; sourceTree = "<group>"; };
+		0E1C831C2216A8590031A558 /* KKAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAVPlayer.h; sourceTree = "<group>"; };
+		0E1C831F2216A87E0031A558 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0E1C83212216A8A40031A558 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0E1C83232216A8C30031A558 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E1C83252216AA3E0031A558 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		0E1C83262216AA3E0031A558 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		0E1C83272216AA3E0031A558 /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1C82E02216A7E40031A558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1C83242216A8C30031A558 /* UIKit.framework in Frameworks */,
+				0E1C83222216A8A40031A558 /* AVFoundation.framework in Frameworks */,
+				0E1C83202216A87E0031A558 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1C82F82216A7E50031A558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1C83032216A7E50031A558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1C82DA2216A7E40031A558 = {
+			isa = PBXGroup;
+			children = (
+				0E1C82E52216A7E40031A558 /* KKAVPlayer */,
+				0E1C82FE2216A7E50031A558 /* KKAVPlayerTests */,
+				0E1C83092216A7E50031A558 /* KKAVPlayerUITests */,
+				0E1C82E42216A7E40031A558 /* Products */,
+				0E1C831E2216A87D0031A558 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E1C82E42216A7E40031A558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C82E32216A7E40031A558 /* KKAVPlayer.app */,
+				0E1C82FB2216A7E50031A558 /* KKAVPlayerTests.xctest */,
+				0E1C83062216A7E50031A558 /* KKAVPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E1C82E52216A7E40031A558 /* KKAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C831A2216A8590031A558 /* KKAVPlayer */,
+				0E1C83182216A82F0031A558 /* i-see-fire.mp4 */,
+				0E1C82E62216A7E40031A558 /* AppDelegate.h */,
+				0E1C82E72216A7E40031A558 /* AppDelegate.m */,
+				0E1C82E92216A7E40031A558 /* ViewController.h */,
+				0E1C82EA2216A7E40031A558 /* ViewController.m */,
+				0E1C82EC2216A7E40031A558 /* Main.storyboard */,
+				0E1C83252216AA3E0031A558 /* PlayerViewController.h */,
+				0E1C83262216AA3E0031A558 /* PlayerViewController.m */,
+				0E1C83272216AA3E0031A558 /* PlayerViewController.xib */,
+				0E1C82EF2216A7E50031A558 /* Assets.xcassets */,
+				0E1C82F12216A7E50031A558 /* LaunchScreen.storyboard */,
+				0E1C82F42216A7E50031A558 /* Info.plist */,
+				0E1C82F52216A7E50031A558 /* main.m */,
+			);
+			path = KKAVPlayer;
+			sourceTree = "<group>";
+		};
+		0E1C82FE2216A7E50031A558 /* KKAVPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C82FF2216A7E50031A558 /* KKAVPlayerTests.m */,
+				0E1C83012216A7E50031A558 /* Info.plist */,
+			);
+			path = KKAVPlayerTests;
+			sourceTree = "<group>";
+		};
+		0E1C83092216A7E50031A558 /* KKAVPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C830A2216A7E50031A558 /* KKAVPlayerUITests.m */,
+				0E1C830C2216A7E50031A558 /* Info.plist */,
+			);
+			path = KKAVPlayerUITests;
+			sourceTree = "<group>";
+		};
+		0E1C831A2216A8590031A558 /* KKAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C831C2216A8590031A558 /* KKAVPlayer.h */,
+				0E1C831B2216A8590031A558 /* KKAVPlayer.m */,
+			);
+			path = KKAVPlayer;
+			sourceTree = "<group>";
+		};
+		0E1C831E2216A87D0031A558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C83232216A8C30031A558 /* UIKit.framework */,
+				0E1C83212216A8A40031A558 /* AVFoundation.framework */,
+				0E1C831F2216A87E0031A558 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E1C82E22216A7E40031A558 /* KKAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1C830F2216A7E50031A558 /* Build configuration list for PBXNativeTarget "KKAVPlayer" */;
+			buildPhases = (
+				0E1C82DF2216A7E40031A558 /* Sources */,
+				0E1C82E02216A7E40031A558 /* Frameworks */,
+				0E1C82E12216A7E40031A558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKAVPlayer;
+			productName = KKAVPlayer;
+			productReference = 0E1C82E32216A7E40031A558 /* KKAVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E1C82FA2216A7E50031A558 /* KKAVPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1C83122216A7E50031A558 /* Build configuration list for PBXNativeTarget "KKAVPlayerTests" */;
+			buildPhases = (
+				0E1C82F72216A7E50031A558 /* Sources */,
+				0E1C82F82216A7E50031A558 /* Frameworks */,
+				0E1C82F92216A7E50031A558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E1C82FD2216A7E50031A558 /* PBXTargetDependency */,
+			);
+			name = KKAVPlayerTests;
+			productName = KKAVPlayerTests;
+			productReference = 0E1C82FB2216A7E50031A558 /* KKAVPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E1C83052216A7E50031A558 /* KKAVPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1C83152216A7E50031A558 /* Build configuration list for PBXNativeTarget "KKAVPlayerUITests" */;
+			buildPhases = (
+				0E1C83022216A7E50031A558 /* Sources */,
+				0E1C83032216A7E50031A558 /* Frameworks */,
+				0E1C83042216A7E50031A558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E1C83082216A7E50031A558 /* PBXTargetDependency */,
+			);
+			name = KKAVPlayerUITests;
+			productName = KKAVPlayerUITests;
+			productReference = 0E1C83062216A7E50031A558 /* KKAVPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E1C82DB2216A7E40031A558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kkfinger;
+				TargetAttributes = {
+					0E1C82E22216A7E40031A558 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0E1C82FA2216A7E50031A558 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0E1C82E22216A7E40031A558;
+					};
+					0E1C83052216A7E50031A558 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0E1C82E22216A7E40031A558;
+					};
+				};
+			};
+			buildConfigurationList = 0E1C82DE2216A7E40031A558 /* Build configuration list for PBXProject "KKAVPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E1C82DA2216A7E40031A558;
+			productRefGroup = 0E1C82E42216A7E40031A558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E1C82E22216A7E40031A558 /* KKAVPlayer */,
+				0E1C82FA2216A7E50031A558 /* KKAVPlayerTests */,
+				0E1C83052216A7E50031A558 /* KKAVPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E1C82E12216A7E40031A558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1C82F32216A7E50031A558 /* LaunchScreen.storyboard in Resources */,
+				0E1C83292216AA3E0031A558 /* PlayerViewController.xib in Resources */,
+				0E1C82F02216A7E50031A558 /* Assets.xcassets in Resources */,
+				0E1C82EE2216A7E40031A558 /* Main.storyboard in Resources */,
+				0E1C83192216A82F0031A558 /* i-see-fire.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1C82F92216A7E50031A558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1C83042216A7E50031A558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1C82DF2216A7E40031A558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1C82EB2216A7E40031A558 /* ViewController.m in Sources */,
+				0E1C831D2216A8590031A558 /* KKAVPlayer.m in Sources */,
+				0E1C82F62216A7E50031A558 /* main.m in Sources */,
+				0E1C82E82216A7E40031A558 /* AppDelegate.m in Sources */,
+				0E1C83282216AA3E0031A558 /* PlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1C82F72216A7E50031A558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1C83002216A7E50031A558 /* KKAVPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1C83022216A7E50031A558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1C830B2216A7E50031A558 /* KKAVPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E1C82FD2216A7E50031A558 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E1C82E22216A7E40031A558 /* KKAVPlayer */;
+			targetProxy = 0E1C82FC2216A7E50031A558 /* PBXContainerItemProxy */;
+		};
+		0E1C83082216A7E50031A558 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E1C82E22216A7E40031A558 /* KKAVPlayer */;
+			targetProxy = 0E1C83072216A7E50031A558 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E1C82EC2216A7E40031A558 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1C82ED2216A7E40031A558 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E1C82F12216A7E50031A558 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1C82F22216A7E50031A558 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E1C830D2216A7E50031A558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E1C830E2216A7E50031A558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E1C83102216A7E50031A558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X732W9RQ2;
+				INFOPLIST_FILE = KKAVPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.avplayer.KKAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E1C83112216A7E50031A558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X732W9RQ2;
+				INFOPLIST_FILE = KKAVPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.avplayer.KKAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E1C83132216A7E50031A558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKAVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.avplayer.KKAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKAVPlayer.app/KKAVPlayer";
+			};
+			name = Debug;
+		};
+		0E1C83142216A7E50031A558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKAVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.avplayer.KKAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKAVPlayer.app/KKAVPlayer";
+			};
+			name = Release;
+		};
+		0E1C83162216A7E50031A558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKAVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.avplayer.KKAVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKAVPlayer;
+			};
+			name = Debug;
+		};
+		0E1C83172216A7E50031A558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKAVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.avplayer.KKAVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKAVPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E1C82DE2216A7E40031A558 /* Build configuration list for PBXProject "KKAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1C830D2216A7E50031A558 /* Debug */,
+				0E1C830E2216A7E50031A558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1C830F2216A7E50031A558 /* Build configuration list for PBXNativeTarget "KKAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1C83102216A7E50031A558 /* Debug */,
+				0E1C83112216A7E50031A558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1C83122216A7E50031A558 /* Build configuration list for PBXNativeTarget "KKAVPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1C83132216A7E50031A558 /* Debug */,
+				0E1C83142216A7E50031A558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1C83152216A7E50031A558 /* Build configuration list for PBXNativeTarget "KKAVPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1C83162216A7E50031A558 /* Debug */,
+				0E1C83172216A7E50031A558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E1C82DB2216A7E40031A558 /* Project object */;
+}
